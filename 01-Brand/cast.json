@@ -1,0 +1,194 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "EC-WORLD",
+  "source_status": "source_stated_unverified",
+  "items": [
+    {
+      "id": "cast-dani",
+      "name": "Dani",
+      "age_in_source": 26,
+      "origin": "Mỹ gốc Mexico",
+      "table_ids": [
+        "foodie",
+        "bestie"
+      ],
+      "personality": "Đầu bếp ca tối, nói thẳng, cười to; về nhà ăn mì gói.",
+      "appearance": "Da olive, gò má cao, búi tóc thấp rối, khuyên bạc, vết bỏng cũ ở cẳng tay, vai rộng.",
+      "base_outfit": "Tee đen; Quần làm việc xám than, guốc bếp đen, dây buộc tóc ở cổ tay.",
+      "characteristic_errors": "Sốt trên tạp dề/cổ tay; tất lệch.",
+      "red_prop_options": [
+        "Phiếu order đỏ",
+        "Chai salsa đỏ"
+      ],
+      "soul_id": "9b1b928e-3423-441d-8a19-770f64923e85",
+      "soul_hint": "with very dark brown hair in a messy low bun with loose strands at the temples, thin silver hoop earrings, warm olive skin, strong cheekbones",
+      "soul_availability": "not_checked",
+      "character_sheet_asset_id": null,
+      "turnaround_asset_id": null,
+      "expression_sheet_asset_id": null
+    },
+    {
+      "id": "cast-theo",
+      "name": "Theo",
+      "age_in_source": 24,
+      "origin": "Mỹ da đen",
+      "table_ids": [
+        "college",
+        "broke"
+      ],
+      "personality": "Sinh viên năm cuối, barista part-time, mặt lạnh, đùa khô, nộp bài 11:59.",
+      "appearance": "Mặt dài, râu lún phún, tóc xoắn ngắn trên đỉnh/hai bên cạo, cao gầy tay dài.",
+      "base_outfit": "Tee đen; Jeans xanh nhạt xắn gấu, giày vải trắng ngà bẩn mũi, vòng dây đen.",
+      "characteristic_errors": "Latte art hỏng; sách chưa mở.",
+      "red_prop_options": [
+        "Bút highlight đỏ",
+        "Cốc sứ đỏ"
+      ],
+      "soul_id": "71312349-0e0c-401f-a1dc-4ea037dadebe",
+      "soul_hint": "with short natural twisted hair on top and faded sides, light stubble, deep brown skin, tall lean build",
+      "soul_availability": "not_checked",
+      "character_sheet_asset_id": null,
+      "turnaround_asset_id": null,
+      "expression_sheet_asset_id": null
+    },
+    {
+      "id": "cast-june",
+      "name": "June",
+      "age_in_source": 27,
+      "origin": "Mỹ gốc Hàn",
+      "table_ids": [
+        "overthinker"
+      ],
+      "personality": "Dân văn phòng chu đáo quá mức, soạn tin chín lần, từ chối bằng ba đoạn văn.",
+      "appearance": "Mặt trái tim, mắt một mí, mái bằng, tóc đen qua vai, kính oval kim loại mảnh, dáng nhỏ.",
+      "base_outfit": "Tee đen; Quần tây xếp ly xám than, loafer đen/tất trắng, đồng hồ điện tử.",
+      "characteristic_errors": "Note kín màn hình; đi một chiếc giày.",
+      "red_prop_options": [
+        "Bút đỏ",
+        "Cốc đỏ"
+      ],
+      "soul_id": "f73ca19b-1b1a-41e7-a4db-c82e594da20e",
+      "soul_hint": "with straight black hair and short blunt bangs, thin black wire-rimmed oval glasses on her nose",
+      "soul_availability": "not_checked",
+      "character_sheet_asset_id": null,
+      "turnaround_asset_id": null,
+      "expression_sheet_asset_id": null
+    },
+    {
+      "id": "cast-marcus",
+      "name": "Marcus",
+      "age_in_source": 28,
+      "origin": "Mỹ da trắng",
+      "table_ids": [
+        "gym-rat"
+      ],
+      "personality": "To con, hiền, tự cười mình, mang bình protein cả vào quán bia.",
+      "appearance": "Mặt vuông, râu ngắn nâu đỏ, má hồng, tàn nhang mũi, tóc nâu sát hai bên, vai/tay to.",
+      "base_outfit": "Tee đen; Short xám, tất trắng cao, giày chạy trơn, đồng hồ thể thao đen.",
+      "characteristic_errors": "Dây giày tuột; bột protein trên áo; mặc áo trái.",
+      "red_prop_options": [
+        "Bình nước đỏ",
+        "Ống hút đỏ"
+      ],
+      "soul_id": "0f47e7f0-597b-4bdf-98ce-648f8650249a",
+      "soul_hint": "with short medium-brown hair buzzed on the sides, short ginger-brown beard, ruddy cheeks, muscular build",
+      "soul_availability": "not_checked",
+      "character_sheet_asset_id": null,
+      "turnaround_asset_id": null,
+      "expression_sheet_asset_id": null
+    },
+    {
+      "id": "cast-priya",
+      "name": "Priya",
+      "age_in_source": 25,
+      "origin": "Mỹ gốc Ấn",
+      "table_ids": [
+        "broke",
+        "unhinged",
+        "bestie"
+      ],
+      "personality": "Làm ca đêm, pin xã hội 2%, lý trí nghỉ phép, lương về sáng chiều đếm xu.",
+      "appearance": "Da nâu, khuyên mũi bạc nhỏ, quầng mắt, tóc dài xoăn kẹp nửa đầu, dáng đầy đặn.",
+      "base_outfit": "Tee đen; Quần nỉ ống rộng đen, guốc xám/tất trắng, vòng chỉ đỏ cổ tay trái.",
+      "characteristic_errors": "Tất hai màu; mì 3am; xu lăn.",
+      "red_prop_options": [
+        "Giỏ nhựa đỏ",
+        "Trống lục lạc đỏ"
+      ],
+      "soul_id": "c141c876-31a9-461c-8170-01689e136ea3",
+      "soul_hint": "with long wavy black hair in a half-up claw clip with flyaways, a tiny silver nose stud, faint dark circles under her eyes, curvy build",
+      "soul_availability": "not_checked",
+      "character_sheet_asset_id": null,
+      "turnaround_asset_id": null,
+      "expression_sheet_asset_id": null
+    },
+    {
+      "id": "cast-owen",
+      "name": "Owen",
+      "age_in_source": 29,
+      "origin": "Mỹ gốc Ireland",
+      "table_ids": [
+        "cat-person"
+      ],
+      "personality": "Hướng nội, nói chuyện với mèo nhiều và nghiêm túc hơn với người.",
+      "appearance": "Mặt dài gầy, tóc nâu nhạt xoăn rối, râu thưa, kính tròn đồi mồi, cao khom.",
+      "base_outfit": "Tee đen; Jogger xám, dép lê, tất kẻ; tee thường dính lông mèo.",
+      "characteristic_errors": "Mèo đè laptop giữa họp; lông mèo trên áo.",
+      "red_prop_options": [
+        "Cuộn len đỏ",
+        "Cây lăn bụi đỏ"
+      ],
+      "soul_id": "f7d671ac-479d-4300-8bbf-eef0f6112842",
+      "soul_hint": "with light-brown messy curly hair, a sparse light-brown beard, round tortoiseshell glasses on his nose, tall slim build",
+      "soul_availability": "not_checked",
+      "character_sheet_asset_id": null,
+      "turnaround_asset_id": null,
+      "expression_sheet_asset_id": null
+    },
+    {
+      "id": "cast-imani",
+      "name": "Imani",
+      "age_in_source": 26,
+      "origin": "Mỹ da đen",
+      "table_ids": [
+        "book-club"
+      ],
+      "personality": "Đọc romance tới 3am, khóc vì nhân vật, review bằng giọng tòa án.",
+      "appearance": "Da nâu sẫm, mặt trái xoan, gò má cao, box braids buộc cao, khuyên vàng nhỏ, nốt ruồi má trái.",
+      "base_outfit": "Tee đen; Cardigan kem, váy xếp ly đen, Mary Jane/tất trắng.",
+      "characteristic_errors": "Sách gấp góc, note tua tủa; lỡ ga vì chương cuối.",
+      "red_prop_options": [
+        "Ruy băng đánh dấu đỏ"
+      ],
+      "soul_id": "06c6bcdb-6686-4006-b1b6-dbc5c93eb614",
+      "soul_hint": "with long black box braids tied in a high ponytail, small gold hoop earrings, a small mole on her left cheek, deep brown skin",
+      "soul_availability": "not_checked",
+      "character_sheet_asset_id": null,
+      "turnaround_asset_id": null,
+      "expression_sheet_asset_id": null
+    },
+    {
+      "id": "cast-mia",
+      "name": "Mia",
+      "age_in_source": 24,
+      "origin": "Mỹ gốc Philippines",
+      "table_ids": [
+        "situationship"
+      ],
+      "personality": "Đọc lại tin cũ để phân tích, nói we are just talking, kiểm điện thoại liên tục.",
+      "appearance": "Mặt trái xoan, bob đen ngang cằm uốn nhẹ, eyeliner lem, tàn nhang nhẹ, móng đen bong.",
+      "base_outfit": "Tee đen; Jeans đen ống đứng, giày platform đen.",
+      "characteristic_errors": "Điện thoại úp vẫn sáng; lỡ like ảnh cũ 2019.",
+      "red_prop_options": [
+        "Cherry đỏ"
+      ],
+      "soul_id": "06cb4a6e-2f4b-448f-99bc-7f33dc692fd9",
+      "soul_hint": "with a chin-length black bob with soft waves, slightly smudged black eyeliner, light freckles, petite build",
+      "soul_availability": "not_checked",
+      "character_sheet_asset_id": null,
+      "turnaround_asset_id": null,
+      "expression_sheet_asset_id": null
+    }
+  ],
+  "operational_role": "legacy_reference_not_active_roster"
+}

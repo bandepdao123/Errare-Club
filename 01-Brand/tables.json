@@ -1,0 +1,128 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "EC-WORLD",
+  "source_status": "source_stated_unverified",
+  "items": [
+    {
+      "id": "bestie",
+      "name": "Bestie",
+      "primary_cast_ids": [
+        "cast-dani",
+        "cast-priya"
+      ],
+      "product_ids": [
+        "BFF-10"
+      ],
+      "insight": "Muốn ở bên bạn nhưng để kế hoạch nằm trong tin đã đọc.",
+      "source_scene": "847 tin chưa đọc, toàn của bạn thân."
+    },
+    {
+      "id": "broke",
+      "name": "Broke",
+      "primary_cast_ids": [
+        "cast-priya"
+      ],
+      "product_ids": [
+        "BRK-02"
+      ],
+      "insight": "Muốn tự thưởng nhưng app ngân hàng báo trước.",
+      "source_scene": "Đếm xu mua mì và trứng trong bodega."
+    },
+    {
+      "id": "cat-person",
+      "name": "Cat Person",
+      "primary_cast_ids": [
+        "cast-owen"
+      ],
+      "product_ids": [
+        "CAT-01"
+      ],
+      "insight": "Muốn làm người lớn có ích nhưng mèo xếp trên quản lý.",
+      "source_scene": "Giải thích dự án cho mèo đang đè bàn phím."
+    },
+    {
+      "id": "college",
+      "name": "College",
+      "primary_cast_ids": [
+        "cast-theo"
+      ],
+      "product_ids": [
+        "COL-01"
+      ],
+      "insight": "Muốn theo kịp mọi người nhưng tuần đầu là đỉnh cao.",
+      "source_scene": "11:58, sách chưa mở, thanh upload đang chạy."
+    },
+    {
+      "id": "foodie",
+      "name": "Foodie",
+      "primary_cast_ids": [
+        "cast-dani"
+      ],
+      "product_ids": [
+        "FOO-12"
+      ],
+      "insight": "Muốn ăn như critic nhưng món nào cũng ngập sốt.",
+      "source_scene": "Salsa chảy xuống cổ tay ở xe taco."
+    },
+    {
+      "id": "gym-rat",
+      "name": "Gym Rat",
+      "primary_cast_ids": [
+        "cast-marcus"
+      ],
+      "product_ids": [
+        "GYM-10"
+      ],
+      "insight": "Muốn tận hưởng nâng tạ nhưng vẫn nhìn ai đang xem form.",
+      "source_scene": "Lắc protein giữa hai set, dây giày vẫn tuột."
+    },
+    {
+      "id": "overthinker",
+      "name": "Overthinker",
+      "primary_cast_ids": [
+        "cast-june"
+      ],
+      "product_ids": [
+        "OVT-10"
+      ],
+      "insight": "Muốn nhắn bình thường nhưng soạn lại chín lần.",
+      "source_scene": "Đã đi một giày, đang gõ tin từ chối lần bốn."
+    },
+    {
+      "id": "book-club",
+      "name": "Book Club",
+      "primary_cast_ids": [
+        "cast-imani"
+      ],
+      "product_ids": [
+        "ROM-16"
+      ],
+      "insight": "Muốn đọc như người lớn nhưng khóc ở chương 31.",
+      "source_scene": "Đọc sách gấp góc khi hiệu sách sắp đóng."
+    },
+    {
+      "id": "situationship",
+      "name": "Situationship",
+      "primary_cast_ids": [
+        "cast-mia"
+      ],
+      "product_ids": [
+        "SIT-11"
+      ],
+      "insight": "Muốn chill nhưng vẫn kiểm người ấy đã xem story chưa.",
+      "source_scene": "1:12am, điện thoại úp sáng dưới tay."
+    },
+    {
+      "id": "unhinged",
+      "name": "Unhinged",
+      "primary_cast_ids": [
+        "cast-priya"
+      ],
+      "product_ids": [
+        "UNH-23"
+      ],
+      "insight": "Muốn bí ẩn nhưng kể hết tuổi thơ cho phòng karaoke.",
+      "source_scene": "Hát và kể đời, chân trần trên sofa."
+    }
+  ]
+}

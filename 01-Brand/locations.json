@@ -1,0 +1,314 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "EC-WORLD",
+  "source_status": "source_stated_unverified",
+  "items": [
+    {
+      "id": "loc-hero-bestie",
+      "name": "Hero Bestie",
+      "cast_ids": [
+        "cast-dani",
+        "cast-priya"
+      ],
+      "table_id": "bestie",
+      "product_id": "BFF-10",
+      "place": "Bậc thềm brownstone, Bed-Stuy, Brooklyn",
+      "local_scene_time": "21:40",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Đèn natri từ phải, cửa vàng, màn hình điện thoại",
+      "source_error_options": "847 tin chưa đọc",
+      "red_prop": "Phiếu order đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-wear-9to5",
+      "name": "Wear it to 9 to 5",
+      "cast_ids": [
+        "cast-june"
+      ],
+      "table_id": "overthinker",
+      "product_id": null,
+      "place": "Pantry tầng 14, Flatiron, Manhattan",
+      "local_scene_time": "09:07",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Nắng xiên qua rèm và huỳnh quang",
+      "source_error_options": "Máy cà phê chỉ ra một giọt, đã muộn họp",
+      "red_prop": "Cốc gốm đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-wear-after6",
+      "name": "Wear it to After 6",
+      "cast_ids": [
+        "cast-marcus"
+      ],
+      "table_id": "gym-rat",
+      "product_id": null,
+      "place": "Bar nhỏ, East Village",
+      "local_scene_time": "20:30",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Flash điện thoại, nền tối ấm",
+      "source_error_options": "Bình protein giữa quán bia",
+      "red_prop": "Ống hút đỏ ở ly bên cạnh",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-wear-dayoff",
+      "name": "Wear it to Day Off",
+      "cast_ids": [
+        "cast-owen"
+      ],
+      "table_id": "cat-person",
+      "product_id": null,
+      "place": "Tiệm giặt, Greenpoint, Brooklyn",
+      "local_scene_time": "Chủ nhật 12:30",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Cửa sổ và huỳnh quang, tông mát",
+      "source_error_options": "Lông mèo trên áo, lăn bụi hết giấy",
+      "red_prop": "Cây lăn đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-bestie",
+      "name": "Persona Bestie",
+      "cast_ids": [
+        "cast-dani",
+        "cast-priya"
+      ],
+      "table_id": "bestie",
+      "product_id": "BFF-10",
+      "place": "Booth diner 24h, Astoria, Queens",
+      "local_scene_time": "01:10",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Huỳnh quang trần, neon ngoài kính",
+      "source_error_options": "Tương cà đổ lên khay",
+      "red_prop": "Chai tương cà đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-broke",
+      "name": "Persona Broke",
+      "cast_ids": [
+        "cast-priya"
+      ],
+      "table_id": "broke",
+      "product_id": "BRK-02",
+      "place": "Quầy bodega, Crown Heights",
+      "local_scene_time": "23:00",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Huỳnh quang trắng xanh, có thể flash",
+      "source_error_options": "Xu lẻ lăn trên quầy",
+      "red_prop": "Giỏ nhựa đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-cat",
+      "name": "Persona Cat Person",
+      "cast_ids": [
+        "cast-owen"
+      ],
+      "table_id": "cat-person",
+      "product_id": "CAT-01",
+      "place": "Căn hộ walk-up, Greenpoint",
+      "local_scene_time": "Thứ Bảy 10:00",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Nắng cửa sổ xiên",
+      "source_error_options": "Mèo đè laptop giữa họp, lông mèo trên áo",
+      "red_prop": "Cuộn len đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-college",
+      "name": "Persona College",
+      "cast_ids": [
+        "cast-theo"
+      ],
+      "table_id": "college",
+      "product_id": "COL-01",
+      "place": "Thư viện đại học gần Washington Square",
+      "local_scene_time": "23:58",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Đèn bàn ấm và laptop",
+      "source_error_options": "Deadline 23:59, sách chưa mở",
+      "red_prop": "Bút highlight đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-foodie",
+      "name": "Persona Foodie",
+      "cast_ids": [
+        "cast-dani"
+      ],
+      "table_id": "foodie",
+      "product_id": "FOO-12",
+      "place": "Xe taco, Jackson Heights, Queens",
+      "local_scene_time": "21:00",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Huỳnh quang xe, đèn đường cam",
+      "source_error_options": "Sốt chảy xuống cổ tay",
+      "red_prop": "Lọ salsa đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-gym",
+      "name": "Persona Gym Rat",
+      "cast_ids": [
+        "cast-marcus"
+      ],
+      "table_id": "gym-rat",
+      "product_id": "GYM-10",
+      "place": "Gym khu phố, Bushwick",
+      "local_scene_time": "19:00",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Huỳnh quang và chút hoàng hôn",
+      "source_error_options": "Dây giày tuột, bột protein trên áo",
+      "red_prop": "Bình nước đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-overthinker",
+      "name": "Persona Overthinker",
+      "cast_ids": [
+        "cast-june"
+      ],
+      "table_id": "overthinker",
+      "product_id": "OVT-10",
+      "place": "Căn hộ một phòng, Astoria",
+      "local_scene_time": "Thứ Sáu 20:00",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Đèn cây ấm, điện thoại",
+      "source_error_options": "Đi một chiếc giày",
+      "red_prop": "Cốc đỏ trên bàn",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-book",
+      "name": "Persona Book Club",
+      "cast_ids": [
+        "cast-imani"
+      ],
+      "table_id": "book-club",
+      "product_id": "ROM-16",
+      "place": "Hiệu sách cũ, Greenwich Village",
+      "local_scene_time": "16:00",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Đèn vàng và cửa sổ xa",
+      "source_error_options": "Sách gấp góc, note tua tủa",
+      "red_prop": "Ruy băng đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-situationship",
+      "name": "Persona Situationship",
+      "cast_ids": [
+        "cast-mia"
+      ],
+      "table_id": "situationship",
+      "product_id": "SIT-11",
+      "place": "Cocktail bar, Lower East Side",
+      "local_scene_time": "01:12",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Flash trực diện, nền tối ấm",
+      "source_error_options": "Điện thoại úp vẫn sáng dưới tay",
+      "red_prop": "Cherry đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-persona-unhinged",
+      "name": "Persona Unhinged",
+      "cast_ids": [
+        "cast-priya"
+      ],
+      "table_id": "unhinged",
+      "product_id": "UNH-23",
+      "place": "Phòng karaoke riêng, Koreatown, Manhattan",
+      "local_scene_time": "23:00",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "LED tím xanh, màn hình, flash nhẹ",
+      "source_error_options": "Dây mic quấn chân bàn",
+      "red_prop": "Trống lục lạc đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-get-the-look",
+      "name": "Get the look",
+      "cast_ids": [
+        "cast-june"
+      ],
+      "table_id": "overthinker",
+      "product_id": "OVT-10",
+      "place": "Hành lang chung cư, Astoria",
+      "local_scene_time": "18:00",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": "Đèn trần ấm, cửa sổ cuối hành lang",
+      "source_error_options": "Thử chìa nào cũng sai",
+      "red_prop": "Móc khóa đỏ",
+      "source_coverage": "full_slot",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    },
+    {
+      "id": "loc-reply-all",
+      "name": "Reply All",
+      "cast_ids": [
+        "cast-june",
+        "cast-marcus"
+      ],
+      "table_id": null,
+      "product_id": null,
+      "place": "Phòng họp kính nhìn ra Bryant Park",
+      "local_scene_time": "18:12",
+      "timezone": "America/New_York",
+      "season": "late-october",
+      "lighting": null,
+      "source_error_options": null,
+      "red_prop": null,
+      "source_coverage": "linked_scene_incomplete",
+      "plate_asset_id": null,
+      "plate_rights": "not_checked"
+    }
+  ]
+}

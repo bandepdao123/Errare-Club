@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.1.4",
+  "status": "design_only_not_executable_dispatcher",
+  "entry_modes": {
+    "product": {
+      "required_source_kinds": [
+        "product"
+      ],
+      "optional_source_kinds": [
+        "reference"
+      ],
+      "guide": "02-Research/INTAKE.md"
+    },
+    "reference": {
+      "required_source_kinds": [
+        "reference"
+      ],
+      "optional_source_kinds": [
+        "product"
+      ],
+      "guide": "02-Research/SOCIAL-RESEARCH.md"
+    },
+    "hybrid": {
+      "required_source_kinds": [
+        "product",
+        "reference"
+      ],
+      "optional_source_kinds": [],
+      "guide": "02-Research/INTAKE.md"
+    }
+  },
+  "formats": [
+    "photo_post",
+    "video"
+  ],
+  "tasks": [
+    "concept",
+    "prompts",
+    "generate",
+    "review",
+    "revision",
+    "caption",
+    "close"
+  ],
+  "default_campaign_required": false,
+  "shared_workflow": "00-Standards/workflow.md",
+  "output_contract": "04-Productions/OUTPUT-CONTRACT.md",
+  "production_guide": "04-Productions/README.md",
+  "model_guide": "02-Research/MODELS.md",
+  "templates": {
+    "content": "04-Productions/templates/content.json",
+    "brief": "04-Productions/templates/brief.md",
+    "concept": "04-Productions/templates/concept.md",
+    "attempt": "04-Productions/templates/attempt.json",
+    "summary": "04-Productions/templates/SUMMARY.md"
+  },
+  "layouts": {
+    "photo_post": [
+      "single",
+      "carousel"
+    ]
+  },
+  "legacy_format_aliases": {
+    "image": {
+      "format": "photo_post",
+      "layout": "single"
+    },
+    "carousel": {
+      "format": "photo_post",
+      "layout": "carousel"
+    },
+    "text": {
+      "status": "legacy_not_default_output"
+    }
+  },
+  "media_contract": "00-Standards/media-contract.json",
+  "source_routing": "00-Standards/SOURCE-ROUTING.md",
+  "skills_proposal": "07-Operations/SKILLS.md",
+  "audience_guide": "00-Standards/US-AUDIENCE.md",
+  "visual_guide": "00-Standards/PHONE-MEDIA.md",
+  "skills_registry": "00-Standards/skills.json"
+}

@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "status": "local_instruction_skills",
+  "common_sources": [
+    "07-Operations/SCOPE.md",
+    "00-Standards/SOURCE-ROUTING.md"
+  ],
+  "mode_sources": {
+    "product": [
+      "01-Brand/PRODUCT-SOURCES.md",
+      "01-Brand/product-sources.json"
+    ],
+    "reference": [
+      "02-Research/SOCIAL-RESEARCH.md"
+    ],
+    "hybrid": [
+      "01-Brand/PRODUCT-SOURCES.md",
+      "01-Brand/product-sources.json",
+      "02-Research/SOCIAL-RESEARCH.md"
+    ]
+  },
+  "data_roots": {
+    "product": {
+      "path": ".errare/library/products",
+      "pattern": "**/*.json"
+    },
+    "reference": {
+      "path": ".errare/research/references",
+      "pattern": "**/*.json"
+    },
+    "persona": {
+      "path": ".errare/library/personas",
+      "pattern": "**/*.json"
+    },
+    "asset": {
+      "path": ".errare/library/assets",
+      "pattern": "**/*.json"
+    },
+    "model": {
+      "path": ".errare/models",
+      "pattern": "**/*.json"
+    },
+    "profile": {
+      "path": ".errare/platform-profiles",
+      "pattern": "**/*.json"
+    },
+    "production": {
+      "path": ".errare/productions",
+      "pattern": "**/content.json"
+    },
+    "lesson": {
+      "path": ".errare/memory",
+      "pattern": "**/*.json"
+    }
+  },
+  "skills": {
+    "er-sanpham": {
+      "path": ".agents/skills/er-sanpham/SKILL.md",
+      "default_task": "lookup",
+      "tasks": {
+        "lookup": {
+          "sources": [
+            "01-Brand/PRODUCT-SOURCES.md",
+            "01-Brand/product-sources.json",
+            "00-Standards/contracts.md"
+          ],
+          "data_kinds": [
+            "product",
+            "asset"
+          ]
+        },
+        "sync": {
+          "sources": [
+            "01-Brand/PRODUCT-SOURCES.md",
+            "01-Brand/product-sources.json",
+            "01-Brand/WEBSITE-REFERENCE.md",
+            "00-Standards/contracts.md",
+            "00-Standards/storage-and-recovery.md"
+          ],
+          "data_kinds": [
+            "product",
+            "asset"
+          ]
+        }
+      }
+    },
+    "er-nghiencuu": {
+      "path": ".agents/skills/er-nghiencuu/SKILL.md",
+      "default_task": "research",
+      "tasks": {
+        "research": {
+          "sources": [
+            "02-Research/SOCIAL-RESEARCH.md",
+            "01-Brand/BRAND.md",
+            "00-Standards/US-AUDIENCE.md"
+          ],
+          "data_kinds": [
+            "reference",
+            "lesson"
+          ]
+        }
+      }
+    },
+    "er-taoanh": {
+      "path": ".agents/skills/er-taoanh/SKILL.md",
+      "default_task": "post",
+      "tasks": {
+        "post": {
+          "include_mode_sources": true,
+          "sources": [
+            "02-Research/INTAKE.md",
+            "00-Standards/media-contract.json",
+            "04-Productions/OUTPUT-CONTRACT.md",
+            "01-Brand/BRAND.md",
+            "00-Standards/US-AUDIENCE.md",
+            "00-Standards/PHONE-MEDIA.md",
+            "00-Standards/CAPTION.md",
+            "00-Standards/quality.md",
+            "04-Productions/README.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "product",
+            "reference",
+            "persona",
+            "asset",
+            "profile",
+            "production",
+            "lesson"
+          ]
+        },
+        "frames": {
+          "sources": [
+            "00-Standards/media-contract.json",
+            "00-Standards/PHONE-MEDIA.md",
+            "00-Standards/US-AUDIENCE.md",
+            "00-Standards/quality.md",
+            "04-Productions/README.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "production",
+            "product",
+            "persona",
+            "asset"
+          ]
+        },
+        "prompts": {
+          "include_mode_sources": true,
+          "sources": [
+            "02-Research/INTAKE.md",
+            "00-Standards/media-contract.json",
+            "04-Productions/OUTPUT-CONTRACT.md",
+            "01-Brand/BRAND.md",
+            "00-Standards/US-AUDIENCE.md",
+            "00-Standards/PHONE-MEDIA.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "product",
+            "reference",
+            "persona",
+            "production"
+          ]
+        },
+        "caption": {
+          "sources": [
+            "00-Standards/CAPTION.md",
+            "04-Productions/OUTPUT-CONTRACT.md"
+          ],
+          "data_kinds": [
+            "production",
+            "profile"
+          ]
+        },
+        "export": {
+          "sources": [
+            "04-Productions/OUTPUT-CONTRACT.md",
+            "00-Standards/quality.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "production",
+            "asset",
+            "profile"
+          ]
+        }
+      }
+    },
+    "er-video": {
+      "path": ".agents/skills/er-video/SKILL.md",
+      "default_task": "prompts",
+      "tasks": {
+        "prompts": {
+          "include_mode_sources": true,
+          "sources": [
+            "02-Research/INTAKE.md",
+            "00-Standards/media-contract.json",
+            "04-Productions/OUTPUT-CONTRACT.md",
+            "01-Brand/BRAND.md",
+            "00-Standards/US-AUDIENCE.md",
+            "00-Standards/PHONE-MEDIA.md",
+            "00-Standards/CAPTION.md",
+            "02-Research/MODELS.md",
+            "04-Productions/README.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "product",
+            "reference",
+            "persona",
+            "model",
+            "production",
+            "lesson"
+          ]
+        },
+        "revision": {
+          "sources": [
+            "04-Productions/OUTPUT-CONTRACT.md",
+            "00-Standards/PHONE-MEDIA.md",
+            "00-Standards/US-AUDIENCE.md",
+            "00-Standards/CAPTION.md",
+            "04-Productions/README.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "production",
+            "product",
+            "reference",
+            "persona",
+            "model"
+          ]
+        },
+        "caption": {
+          "sources": [
+            "00-Standards/CAPTION.md",
+            "04-Productions/OUTPUT-CONTRACT.md"
+          ],
+          "data_kinds": [
+            "production",
+            "profile"
+          ]
+        }
+      }
+    },
+    "er-kiemmedia": {
+      "path": ".agents/skills/er-kiemmedia/SKILL.md",
+      "default_task": "video-package",
+      "tasks": {
+        "photo": {
+          "sources": [
+            "00-Standards/quality.md",
+            "04-Productions/OUTPUT-CONTRACT.md",
+            "00-Standards/US-AUDIENCE.md",
+            "00-Standards/PHONE-MEDIA.md",
+            "00-Standards/CAPTION.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "production",
+            "product",
+            "persona",
+            "asset",
+            "profile"
+          ]
+        },
+        "frames": {
+          "sources": [
+            "00-Standards/quality.md",
+            "00-Standards/PHONE-MEDIA.md",
+            "00-Standards/US-AUDIENCE.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "production",
+            "product",
+            "persona",
+            "asset"
+          ]
+        },
+        "video-package": {
+          "sources": [
+            "00-Standards/quality.md",
+            "04-Productions/OUTPUT-CONTRACT.md",
+            "00-Standards/PHONE-MEDIA.md",
+            "00-Standards/US-AUDIENCE.md",
+            "00-Standards/CAPTION.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "production",
+            "product",
+            "reference",
+            "persona",
+            "model"
+          ]
+        },
+        "video-render": {
+          "sources": [
+            "00-Standards/quality.md",
+            "04-Productions/OUTPUT-CONTRACT.md",
+            "00-Standards/PHONE-MEDIA.md",
+            "00-Standards/US-AUDIENCE.md",
+            "00-Standards/INSTAGRAM-MEDIA.md"
+          ],
+          "data_kinds": [
+            "production",
+            "product",
+            "persona",
+            "asset",
+            "profile"
+          ]
+        },
+        "caption": {
+          "sources": [
+            "00-Standards/CAPTION.md",
+            "00-Standards/quality.md"
+          ],
+          "data_kinds": [
+            "production",
+            "profile"
+          ]
+        }
+      }
+    },
+    "er-dongmedia": {
+      "path": ".agents/skills/er-dongmedia/SKILL.md",
+      "default_task": "close",
+      "tasks": {
+        "close": {
+          "sources": [
+            "04-Productions/README.md",
+            "04-Productions/templates/SUMMARY.md",
+            "06-Insights/MEASUREMENT.md"
+          ],
+          "data_kinds": [
+            "production",
+            "lesson"
+          ]
+        }
+      }
+    },
+    "er-quanlykenh": {
+      "path": ".agents/skills/er-quanlykenh/SKILL.md",
+      "default_task": "plan",
+      "tasks": {
+        "plan": {
+          "sources": [
+            "05-Distribution/README.md",
+            "03-Campaigns/README.md"
+          ],
+          "data_kinds": [
+            "production",
+            "profile"
+          ]
+        },
+        "package": {
+          "sources": [
+            "05-Distribution/README.md",
+            "00-Standards/contracts.md",
+            "00-Standards/CAPTION.md"
+          ],
+          "data_kinds": [
+            "production",
+            "profile",
+            "asset"
+          ]
+        },
+        "publish": {
+          "sources": [
+            "05-Distribution/README.md",
+            "00-Standards/contracts.md",
+            "00-Standards/quality.md",
+            "00-Standards/storage-and-recovery.md"
+          ],
+          "data_kinds": [
+            "production",
+            "profile",
+            "asset"
+          ]
+        },
+        "analyze": {
+          "sources": [
+            "05-Distribution/README.md",
+            "06-Insights/MEASUREMENT.md"
+          ],
+          "data_kinds": [
+            "production",
+            "profile",
+            "lesson"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Runtime, secrets and local environments
+.errare/
+media/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+*.sqlite3
+*.sqlite3-*

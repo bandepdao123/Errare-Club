@@ -1,0 +1,3 @@
+interface:
+  display_name: "ER · Tạo ảnh"
+  short_description: "Tạo post ảnh hoặc cặp frame qua Codex ImageGen"

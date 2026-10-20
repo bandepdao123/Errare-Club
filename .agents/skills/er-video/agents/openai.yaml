@@ -1,0 +1,3 @@
+interface:
+  display_name: "ER · Video"
+  short_description: "Soạn prompt cặp first/last frame, video và caption"

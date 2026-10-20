@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "primary": {
+    "provider": "google_drive",
+    "folder_id": "1p_IciJDq0p_tHWNdvngXAYudAvlJ4JjK",
+    "url": "https://drive.google.com/drive/folders/1p_IciJDq0p_tHWNdvngXAYudAvlJ4JjK",
+    "name": "Product Listing",
+    "authority": "user_designated_product_repository",
+    "access_checked_at": "2026-10-20",
+    "verification_scope": "root_listing_csv_header_and_sample_rows_one_product_folder_metadata_not_full_catalog"
+  },
+  "observed_files": [
+    {"id": "1KbDKVIvOeM5bcLdIASH4x06FP6RnN0EE", "name": "2026-10-20-drive-folder-ids-errare.csv", "role": "sku_folder_image_name_map", "inspection": "header_and_sample_rows_read"},
+    {"id": "14DdDyw5DsxwenD0JBVADRRKQqFJx8gZD", "name": "2026-10-17-drive-folder-ids.csv", "role": "additional_folder_map", "inspection": "metadata_only"},
+    {"id": "1LaqVXVu1K3V6pszTqRCZIqG3jUrxzt5P", "name": "2026-10-20-quote-list-400.xlsx", "role": "product_workbook", "inspection": "metadata_only"},
+    {"id": "1dD2Xe2kMoDD0fKgP7IUkVNNXnlihqKEC", "name": "mockup-200_B2", "role": "mockup_folder", "inspection": "partial_direct_listing"},
+    {"id": "11DhIeiBwjKAnO98xrdYvkXWT5Hnoccxv", "name": "mockup-200_B1", "role": "mockup_folder", "inspection": "metadata_only"}
+  ],
+  "supplementary": {"provider": "website", "url": "https://errareclub.com/", "role": "published_product_page_live_claims_and_missing_reference_fallback"},
+  "local_cache": {"products": ".errare/library/products", "assets": ".errare/library/assets", "images": "media/products"},
+  "full_catalog_indexed": false,
+  "images_downloaded_during_setup": false
+}

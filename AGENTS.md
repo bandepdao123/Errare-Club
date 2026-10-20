@@ -1,0 +1,22 @@
+# Errare Club — hướng dẫn workspace
+
+- Tuân thủ yêu cầu hiện hành của người dùng; tự hoàn thành công việc đã được giao. Không khởi chạy sản xuất chỉ từ yêu cầu nghiên cứu hoặc sửa hệ thống.
+- Phạm vi hiện hành theo 07-Operations/SCOPE.md: media research/production/channel management; R&D sản phẩm ngoài phạm vi. Đọc README.md để xác định trạng thái triển khai, SYSTEM.md khi cần kiến trúc. Chỉ mở nguồn theo nhiệm vụ, không nạp toàn kho.
+- Brand/Table/location: 01-Brand/BRAND.md và đúng record liên quan. Sản phẩm có nguồn chính là kho Drive được chỉ định trong 01-Brand/product-sources.json, theo PRODUCT-SOURCES.md; website bổ sung thông tin đang công bố. products.json là seed cũ, chưa sync catalog. Được xây lại hệ nhân vật; tám cast cũ chỉ là tham khảo.
+- er-sanpham lookup mở đầy đủ hồ sơ có thực của đúng SKU/tên/câu áo, không nạp toàn catalog hoặc bịa trường thiếu. Khi nhập ảnh, tự tải file nguồn Drive/website về local, gắn product/asset ID, source ID/URL/version/hash. Chỉ metadata/URL chưa hoàn thành nhập ảnh; media mở đúng file đã tải.
+- Research theo 02-Research/SOCIAL-RESEARCH.md: watchlist ban đầu do người dùng gửi, sau đó được chủ động khám phá thêm. Nghiên cứu IG, Facebook, Threads, TikTok, X, YouTube; vận hành đầu kỳ ưu tiên IG/Reels, Facebook/Reels, Threads.
+- Chọn đầu vào theo 02-Research/INTAKE.md và 00-Standards/entrypoints.json: product / reference / hybrid; product không chờ watchlist hoặc reference viral. Task và format độc lập với nguồn, campaign tùy chọn.
+- Đầu ra hiện hành theo 00-Standards/media-contract.json và 04-Productions/OUTPUT-CONTRACT.md: photo_post giao ảnh thật đủ target size + caption; video giao frame_pair_prompt (một prompt chung cho hai ảnh riêng first=t0, last=duration_s) + video_prompt + caption, không tự render khi chỉ giao prompt. Caption en-US + 3–5 hashtag, nguồn chung 00-Standards/CAPTION.md.
+- Toàn creative hướng Mỹ theo 00-Standards/US-AUDIENCE.md. Mặc định visual phone đời thường, camera người cầm/độ rung hợp cảnh theo PHONE-MEDIA.md; cinematic chỉ khi yêu cầu. Skill ảnh dùng Codex ImageGen, không tự chuyển provider.
+- Instagram ảnh/frame/video tham chiếu 00-Standards/INSTAGRAM-MEDIA.md cho kỹ thuật; PHONE-MEDIA.md cho hành vi/biểu cảm/bối cảnh/người quan sát tự nhiên. Áp trong brief/QA hiện có, không thêm tầng workflow. Phân biệt mặc định dự án với capability đường đăng đã xác minh.
+- Đã có bảy skill project-local trong .agents/skills, tên er-*: er-sanpham, er-nghiencuu, er-taoanh, er-video, er-kiemmedia, er-dongmedia, er-quanlykenh. Chọn đúng skill theo tác vụ; không chạy sản xuất từ thảo luận/sửa skill. 07-Operations/SKILLS.md là chỉ mục hiện hành.
+- Skill tham chiếu 00-Standards/skills.json và SOURCE-ROUTING.md, không copy catalog/brand/rules vào từng skill. scripts/skill_context.py route chọn nguồn theo task/mode; find trả metadata phân trang, không thay đọc record/media gốc.
+- Ý tưởng/sản xuất: 00-Standards/workflow.md, quality.md, 04-Productions/README.md, OUTPUT-CONTRACT.md và brief của nội dung đang làm. Kế thừa Nature-Studio về concept, prompt/input/settings/output từng attempt, QA và summary; không áp luật Underwater. Đổi caption không brainstorm lại chuyện đã chốt.
+- Quan hệ/trạng thái: 00-Standards/contracts.md. Từng attempt, review và quyết định duyệt có bản riêng; không ghi đè lịch sử.
+- Đăng bài: 05-Distribution/README.md. QA pass không là quyền đăng. Duyệt phải gắn đúng phiên bản media, caption, account, link và nhãn AI.
+- Phân tích: 06-Insights/MEASUREMENT.md. Unknown là null, không điền 0; không gọi tương quan là nhân quả, không cam kết viral.
+- Thông tin model/giá/nền tảng dễ đổi phải xác minh khi thực thi. Soul ID từ nguồn là metadata chưa kiểm khả dụng, không chứng minh đã có ảnh tham chiếu.
+- Được tự nghiên cứu, lập kế hoạch và sản xuất trong ngân sách đã được giao, chủ dự án duyệt trước khi đăng. Chưa có hạn mức cụ thể thì không tự chi tiền. Chỉ sinh media trả phí trong phạm vi ngân sách đã được giao. Không tự đăng, mở tài khoản, push hoặc truyền tài sản ra hệ thống ngoài từ nhiệm vụ thiết kế. Yêu cầu concept/prompts không tự render; close không tự duyệt hay đăng.
+- Khi kết thúc tác vụ, ghi tóm tắt hiện trạng, artifact đang chọn, việc tiếp theo và blocker vào hồ sơ liên quan; không biến đóng phiên thành duyệt.
+- Runtime/media/metrics riêng theo 00-Standards/storage-and-recovery.md. Không ghi credential hoặc dữ liệu khách hàng vào tài liệu/repo.
+- Kiểm tra nhắm đúng phần thay đổi. Không tạo subagent mặc định.

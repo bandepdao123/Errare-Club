@@ -1,0 +1,71 @@
+{
+  "schema_version": "0.1.4",
+  "status": "design_contract_not_runtime_schema_validator",
+  "caption_policy": {
+    "locale": "en-US",
+    "voice_guide": "00-Standards/CAPTION.md",
+    "hashtag_min": 3,
+    "hashtag_max": 5,
+    "hashtag_policy_scope": "both_packages_default",
+    "hashtags_storage": "separate_array_render_once_after_body"
+  },
+  "packages": {
+    "photo_post": {
+      "required_deliverables": [
+        "image_exports",
+        "caption"
+      ],
+      "layouts": [
+        "single",
+        "carousel"
+      ],
+      "default_stage": "image_generation_and_export",
+      "completion_requires_actual_images": true,
+      "export_targets": "selected_platform_placement_profiles",
+      "all_possible_sizes_required": false
+    },
+    "video": {
+      "required_deliverables": [
+        "frame_pair_prompt",
+        "video_prompt",
+        "caption"
+      ],
+      "default_stage": "prompt_package",
+      "actual_video_required": false,
+      "frame_pair": {
+        "shared_prompt_count": 1,
+        "separate_image_outputs": 2,
+        "output_layout": "separate_files_not_collage",
+        "first_time_s": 0,
+        "last_time_source": "duration_s",
+        "duration_required_for_final_package": true,
+        "roles": [
+          "first",
+          "last"
+        ]
+      },
+      "actual_frame_pair_images_required": false
+    }
+  },
+  "output_guide": "04-Productions/OUTPUT-CONTRACT.md",
+  "source_routing": "00-Standards/SOURCE-ROUTING.md",
+  "skills_proposal": "07-Operations/SKILLS.md",
+  "audience_policy": {
+    "market": "US",
+    "locale": "en-US",
+    "scope": "all_audience_facing_content_and_creative",
+    "guide": "00-Standards/US-AUDIENCE.md"
+  },
+  "visual_policy": {
+    "default_style": "everyday_smartphone",
+    "video_camera": "human_handheld_phone",
+    "cinematic_requires_explicit_request": true,
+    "guide": "00-Standards/PHONE-MEDIA.md"
+  },
+  "skills_registry": "00-Standards/skills.json",
+  "image_generation": {
+    "tool": "image_gen",
+    "runtime": "codex_builtin",
+    "external_provider_fallback": false
+  }
+}
