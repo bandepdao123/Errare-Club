@@ -43,4 +43,4 @@ python -X utf8 -m unittest discover -s scripts/tests -p test_skill_context.py -v
 
 Ví dụ gọi skill: `$er-video` để soạn gói prompt, `$er-taoanh` khi thực sự muốn tạo/sửa ảnh. Skill không tự cung cấp account, dữ liệu hoặc ngân sách chưa được cấp.
 
-Workspace mới tại thời điểm khảo sát trống. Các đường dẫn content/art/... trong Errare World là tham chiếu của hệ thống cũ, chưa có tại đây; đã đọc được trang chủ errareclub.com, chưa đồng bộ toàn catalog hoặc kiểm ảnh V1. Không dựng file media rỗng để thay tài sản thiếu.
+Các đường dẫn content/art/... trong Errare World là tham chiếu của hệ thống cũ, không tự có tại checkout này. Dữ liệu thử hiện tại được nêu trong HANDOFF và SUMMARY tương ứng; chưa đồng bộ toàn catalog. Không dựng file media rỗng để thay tài sản thiếu.
