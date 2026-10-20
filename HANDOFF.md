@@ -4,7 +4,7 @@ Ngày bàn giao: 2026-10-20. Đọc AGENTS.md → README.md → tài liệu theo
 
 ## Khôi phục
 
-1. Clone repo private bằng tài khoản được cấp quyền; không cần dùng đường dẫn C:/Errare-Club.
+1. Clone repo public https://github.com/bandepdao123/Errare-Club; không cần tài khoản GitHub để đọc hoặc dùng đường dẫn C:/Errare-Club. Repo đã được chuyển Public theo yêu cầu chủ dự án ngày 2026-10-20.
 2. Dùng Python 3.11+ (helper chỉ cần standard library). Chạy hai lệnh kiểm tra bên dưới.
 3. Nếu cần tiếp tục từ ảnh/hồ sơ đã làm, giải nén `handoff/runtime-media-20261020.zip` **vào root repo**. ZIP gồm `.errare/library/`, `.errare/productions/`, `media/` và manifest hash; xem `handoff/CONTENTS.json` để biết coverage. Chạy `python scripts/check_handoff.py` trước giải nén để kiểm tính toàn vẹn. Runtime/media được bàn giao riêng, không đổi chính sách Git ignore của dữ liệu làm việc.
 4. Kết nối Google Drive bằng tài khoản có quyền đọc folder trong `01-Brand/product-sources.json`. Quyền và phiên đăng nhập không đi kèm Git. Cache chỉ có SKU đã nhập, không phải full catalog.
